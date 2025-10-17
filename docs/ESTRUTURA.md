@@ -55,4 +55,3 @@ game/
 2. Criar primeiro mapa de teste
 3. Implementar sistema de colisão
 4. Adicionar sistema de diálogo
-

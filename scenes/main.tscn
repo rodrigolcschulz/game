@@ -1,12 +1,23 @@
-[gd_scene format=3 uid="uid://b7vqxm8yyp8qy"]
+[gd_scene load_steps=2 format=3 uid="uid://b7vqxm8yyp8qy"]
+
+[ext_resource type="FontFile" uid="uid://dffen5nkcc4f3" path="res://assets/fonts/UnifrakturMaguntia/UnifrakturMaguntia-Regular.ttf" id="1_o5qli"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
 
 [node name="Label" type="Label" parent="."]
 offset_left = 400.0
 offset_top = 300.0
 offset_right = 880.0
 offset_bottom = 400.0
+theme_override_fonts/font = ExtResource("1_o5qli")
 theme_override_font_sizes/font_size = 48
 text = "Void Whispers"
 horizontal_alignment = 1
@@ -21,4 +32,3 @@ theme_override_font_sizes/font_size = 20
 text = "Pressione qualquer tecla para começar..."
 horizontal_alignment = 1
 vertical_alignment = 1
-

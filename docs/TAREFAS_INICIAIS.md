@@ -22,9 +22,9 @@ Este documento lista as primeiras tarefas práticas para começar o desenvolvime
 ```
 
 ### 2. Testar a Cena Principal
-- [ ] Pressione F5 para rodar o projeto
-- [ ] Você deve ver "Void Whispers" na tela
-- [ ] Confirme que não há erros no console
+- [x] Pressione F5 para rodar o projeto
+- [x] Você deve ver "Void Whispers" na tela
+- [x] Confirme que não há erros no console
 
 ### 3. Criar o Personagem Básico
 
